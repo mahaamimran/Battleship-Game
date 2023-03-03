@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA061B5A293A538D008A92AE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA061B59293A538D008A92AE /* main.cpp */; };
+		EA061B5A293A538D008A92AE /* BattleshipGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA061B59293A538D008A92AE /* BattleshipGame.cpp */; };
+		EA061B63293A5600008A92AE /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA061B62293A5600008A92AE /* GLUT.framework */; };
+		EA061B65293A560C008A92AE /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA061B64293A560C008A92AE /* OpenGL.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		EA58F6A6293B3FC2007C0CAD /* Functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA58F6A4293B3FC2007C0CAD /* Functions.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +27,12 @@
 
 /* Begin PBXFileReference section */
 		EA061B56293A538D008A92AE /* Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA061B59293A538D008A92AE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EA061B59293A538D008A92AE /* BattleshipGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BattleshipGame.cpp; sourceTree = "<group>"; };
+		EA061B62293A5600008A92AE /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		EA061B64293A560C008A92AE /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		EA061B71293A5659008A92AE /* Test.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Test.xcodeproj; sourceTree = "<group>"; };
+		EA58F6A4293B3FC2007C0CAD /* Functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Functions.cpp; sourceTree = "<group>"; };
+		EA58F6A5293B3FC2007C0CAD /* header.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = header.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +40,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA061B65293A560C008A92AE /* OpenGL.framework in Frameworks */,
+				EA061B63293A5600008A92AE /* GLUT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,8 +51,9 @@
 		EA061B4D293A538D008A92AE = {
 			isa = PBXGroup;
 			children = (
-				EA061B58293A538D008A92AE /* Test */,
+				EA061B58293A538D008A92AE /* BattleshipGame */,
 				EA061B57293A538D008A92AE /* Products */,
+				EA061B61293A5600008A92AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +65,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EA061B58293A538D008A92AE /* Test */ = {
+		EA061B58293A538D008A92AE /* BattleshipGame */ = {
 			isa = PBXGroup;
 			children = (
-				EA061B59293A538D008A92AE /* main.cpp */,
+				EA061B59293A538D008A92AE /* BattleshipGame.cpp */,
+				EA58F6A4293B3FC2007C0CAD /* Functions.cpp */,
+				EA58F6A5293B3FC2007C0CAD /* header.hpp */,
 			);
-			path = Test;
+			path = BattleshipGame;
+			sourceTree = "<group>";
+		};
+		EA061B61293A5600008A92AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA061B71293A5659008A92AE /* Test.xcodeproj */,
+				EA061B64293A560C008A92AE /* OpenGL.framework */,
+				EA061B62293A5600008A92AE /* GLUT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA061B72293A5659008A92AE /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,6 +135,12 @@
 			mainGroup = EA061B4D293A538D008A92AE;
 			productRefGroup = EA061B57293A538D008A92AE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EA061B72293A5659008A92AE /* Products */;
+					ProjectRef = EA061B71293A5659008A92AE /* Test.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				EA061B55293A538D008A92AE /* Test */,
@@ -119,7 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA061B5A293A538D008A92AE /* main.cpp in Sources */,
+				EA061B5A293A538D008A92AE /* BattleshipGame.cpp in Sources */,
+				EA58F6A6293B3FC2007C0CAD /* Functions.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
