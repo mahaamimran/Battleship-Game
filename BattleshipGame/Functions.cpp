@@ -1,6 +1,6 @@
                     /* BattleShip2 -- Maham Imran SE-F 22I2733 */
 #define GL_SILENCE_DEPRECATION
-#include "Testheader.hpp"
+#include "header.hpp"
 #include <fstream>
 void DrawSquare(int sx, int sy, int size,float color[]) {
     int mx=size,my=size;

@@ -5,7 +5,7 @@
 // will silence deprecation warning on macos
 #ifndef BATTLESHIP2_CPP_
 #define BATTLESHIP2_CPP_
-#include "Testheader.hpp"
+#include "header.hpp"
 #include <iostream>
 #include<string>
 #include<cmath> 

@@ -26,7 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		EA061B56293A538D008A92AE /* Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA061B56293A538D008A92AE /* Final Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Final Project"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA061B59293A538D008A92AE /* BattleshipGame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BattleshipGame.cpp; sourceTree = "<group>"; };
 		EA061B62293A5600008A92AE /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		EA061B64293A560C008A92AE /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -60,7 +60,7 @@
 		EA061B57293A538D008A92AE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA061B56293A538D008A92AE /* Test */,
+				EA061B56293A538D008A92AE /* Final Project */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,9 +93,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EA061B55293A538D008A92AE /* Test */ = {
+		EA061B55293A538D008A92AE /* Final Project */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA061B5D293A538D008A92AE /* Build configuration list for PBXNativeTarget "Test" */;
+			buildConfigurationList = EA061B5D293A538D008A92AE /* Build configuration list for PBXNativeTarget "Final Project" */;
 			buildPhases = (
 				EA061B52293A538D008A92AE /* Sources */,
 				EA061B53293A538D008A92AE /* Frameworks */,
@@ -105,9 +105,9 @@
 			);
 			dependencies = (
 			);
-			name = Test;
+			name = "Final Project";
 			productName = Test;
-			productReference = EA061B56293A538D008A92AE /* Test */;
+			productReference = EA061B56293A538D008A92AE /* Final Project */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -124,7 +124,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EA061B51293A538D008A92AE /* Build configuration list for PBXProject "Test" */;
+			buildConfigurationList = EA061B51293A538D008A92AE /* Build configuration list for PBXProject "Final Project" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -143,7 +143,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				EA061B55293A538D008A92AE /* Test */,
+				EA061B55293A538D008A92AE /* Final Project */,
 			);
 		};
 /* End PBXProject section */
@@ -289,7 +289,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EA061B51293A538D008A92AE /* Build configuration list for PBXProject "Test" */ = {
+		EA061B51293A538D008A92AE /* Build configuration list for PBXProject "Final Project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA061B5B293A538D008A92AE /* Debug */,
@@ -298,7 +298,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA061B5D293A538D008A92AE /* Build configuration list for PBXNativeTarget "Test" */ = {
+		EA061B5D293A538D008A92AE /* Build configuration list for PBXNativeTarget "Final Project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA061B5E293A538D008A92AE /* Debug */,
