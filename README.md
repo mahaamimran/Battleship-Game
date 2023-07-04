@@ -11,7 +11,7 @@ This project is a mock version of Sea Battle 2 developed using the Glut/OpenGL f
 - Press 'H' to lock the battleships in their current positions.
 - Press 'M' on any screen to return to the main menu.
 ### Note
-- This version of the game is an incomplete iteration designed for an assignment.
+This version of the game is an incomplete iteration designed for an assignment.
 ## Getting Started
 ### Clone the repository: 
 - Run the command: 
